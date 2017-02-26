@@ -1,0 +1,15 @@
+{
+  "name": "which-cat-day-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@slack/client": "^3.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cecelia.wren@gmail.com",
+  "license": "MIT"
+}
