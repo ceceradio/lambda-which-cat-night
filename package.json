@@ -1,0 +1,23 @@
+{
+  "name": "slack-catbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satsukitv/lambda-which-cat-night.git"
+  },
+  "author": "cecelia.wren@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/satsukitv/lambda-which-cat-night/issues"
+  },
+  "homepage": "https://github.com/satsukitv/lambda-which-cat-night#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-aws-lambda": "^0.13.0"
+  }
+}
