@@ -7,6 +7,11 @@ module.exports = function(grunt) {
             options: {
                 package_folder: './bot/'
             }
+        },
+        web: {
+            options: {
+                package_folder: './web/'
+            }
         }
     },
     lambda_deploy: {
@@ -15,6 +20,9 @@ module.exports = function(grunt) {
             options: {
                 timeout: 10
             }
+        },
+        web: {
+            arn: '<%=arns.web%>'
         }
     },
   });
